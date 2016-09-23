@@ -31,7 +31,7 @@ public class VerificationTests {
     {
         driver = new ChromeDriver();
         driver.manage().timeouts().pageLoadTimeout((long)20, TimeUnit.SECONDS);
-        //If this returns an error, you may need to add the path to the chrome executable to your path variable.
+        //If this returns an error, you may need to add the path to the chrome executable to your global "Path" variable.
         helper = new TestHelper();
     }
 
@@ -53,7 +53,6 @@ public class VerificationTests {
     public void verifyMainMenuIsFound()
     {
         Assert.assertFalse(page.mainMenuItems.isEmpty());
-
     }
 
     @Test
@@ -64,8 +63,9 @@ public class VerificationTests {
     @Test
     public void FindMenuValid()
     {
-      Assert.assertTrue(page.ClickSubmenuItem("Eagle Point", "Eagle Point - Ski Utah"));
+        Assert.assertTrue(page.ClickSubmenuItem("Eagle Point", "Eagle Point - Ski Utah"));
     }
+
     @BeforeTest
     public void goBack1(){
         page = helper.goBack(driver, page);

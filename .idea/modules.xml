@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/QA-Java-Automation_Code_Challenge_3_Stub.iml" filepath="$PROJECT_DIR$/QA-Java-Automation_Code_Challenge_3_Stub.iml" />
       <module fileurl="file://$PROJECT_DIR$/STGAutomationChallenge3.iml" filepath="$PROJECT_DIR$/STGAutomationChallenge3.iml" />
     </modules>
   </component>

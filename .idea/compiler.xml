@@ -22,10 +22,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="QA-Java-Automation_Code_Challenge_3_Stub" />
         <module name="STGAutomationChallenge3" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="QA-Java-Automation_Code_Challenge_3_Stub" target="1.5" />
       <module name="STGAutomationChallenge3" target="1.5" />
     </bytecodeTargetLevel>
   </component>
