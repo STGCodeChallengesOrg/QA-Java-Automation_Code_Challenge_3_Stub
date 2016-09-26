@@ -19,12 +19,12 @@ import java.util.concurrent.TimeUnit;
 //endregion
 
 public class VerificationTests {
-    //region Member Elements
-    public WebDriver driver;
-    public SkiUtahPage page;
-    public TestHelper helper;
+        //region Member Elements
+        public WebDriver driver;
+        public SkiUtahPage page;
+        public TestHelper helper;
 
-    //endregion
+        //endregion
 
     @BeforeSuite
     public void SetUpTestSuite()
